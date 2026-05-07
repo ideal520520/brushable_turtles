@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "brushable_turtles.modid.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BrushItemMixin",
+		"EntityAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

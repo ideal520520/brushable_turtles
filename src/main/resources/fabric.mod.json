@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "brushable_turtles",
+	"version": "${version}",
+	"name": "Brushable_Turtles",
+	"description": "Brushing turtles with a brush can drop turtle scutes!",
+	"authors": [
+		"LX!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/brushable_turtles/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"brushable_turtles.modid.Brushable_Turtles"
+		]
+	},
+	"mixins": [
+		"brushable_turtles.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
