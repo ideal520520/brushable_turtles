@@ -1,2 +1,2 @@
 # brushable_turtles
-a farbic mod
+java minecraft mod
